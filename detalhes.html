@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex - About</title>
+
+    <!-- Nosso css -->
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="pokedex.css">
+    <link rel="stylesheet" href="detalhes.css">
+</head>
+
+<body>
+    <section id="paginaDetalhes" class="content details">
+        <div class="parteDeCima grass">
+            <header>
+                <a href="index.html"><img src="left-arrow-svgrepo-com.svg" alt="voltar" id="flecha"></a>
+            </header>
+            <div class="infoGeral">
+                <span class="number">#001</span>
+                <h1 class="nome">bulbasaur</h1>
+
+                <ol class="types">
+                    <li class="grass type">Grass</li>
+                    <li class="poison type">Poison</li>
+                </ol>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+                    alt="bulbasaur">
+            </div>
+        </div>
+        <div class="parteDeBaixo">
+            <div class="about">
+                <h3>About</h3>
+                <table>
+                    <tr>
+                        <th class="caracteristica">Species</th>
+                        <th>Seed</th>
+                    </tr>
+                    <tr>
+                        <th class="caracteristica">Height</th>
+                        <th>0.70 m</th>
+                    </tr>
+                    <tr>
+                        <th class="caracteristica">Weight</th>
+                        <th>6.9 kg</th>
+                    </tr>
+                </table>
+                <h3>Breeding</h3>
+                <table>
+                    <tr>
+                        <th class="caracteristica">Gender</th>
+                        <th> m 87.5% f 12.5%</th>
+                    </tr>
+                    <tr>
+                        <th class="caracteristica">Egg Groups</th>
+                        <th>Monster</th>
+                    </tr>
+                    <tr>
+                        <th class="caracteristica">Egg Cycle</th>
+                        <th>Grass</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- <table>
+        <tr>
+            <th class="caracteristica">Defense</th>
+            <th>49</th>
+            <th><div class="statsBar" style="width: calc((49/100)*100px);" ></div></th>
+        </tr>
+    </table> -->
+</body>
+<script src="pokemonmodel.js"></script>
+<script src="detalhes.js"></script>
+<!-- <script src="./assets/js/main.js"></script> -->
+
+</html>
